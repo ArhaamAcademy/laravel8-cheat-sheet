@@ -21,3 +21,7 @@ $table->string('location', 55)->nullable();
 $table->string('cost', 22)->default(0.00);
 $table->string('created_at')->useCurrent();
 $table->string('updated_at')->nullable();
+
+
+//cach cleaning
+php artisan view:clear
