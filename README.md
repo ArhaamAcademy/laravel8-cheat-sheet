@@ -25,3 +25,9 @@ $table->string('updated_at')->nullable();
 
 //cach cleaning
 php artisan view:clear
+php artisan optimize
+php artisan config:clear
+php artisan config:cache
+
+//for searching specific code/function from the project
+clt + t 
