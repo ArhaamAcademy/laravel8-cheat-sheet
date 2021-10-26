@@ -31,3 +31,11 @@ php artisan config:cache
 
 //for searching specific code/function from the project
 clt + t 
+
+//Authentication
+/*
+* redirecting after logout - by default it gos to home '/'
+* we can chang it from vendor/laravel/ui/auth-backend/AuthenticatesUsers.php
+* redirect('login') instead of redirect('/')
+* /
+
