@@ -39,3 +39,7 @@ clt + t
 * redirect('login') instead of redirect('/')
 * /
 
+
+//Migrtion - Updating/adding spasific field in existing table
+php artisan migrate:refresh --path=/database/migrations/2022_02_06_173855_create_accounts_table.php
+
